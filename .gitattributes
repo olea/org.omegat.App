@@ -1,0 +1,1 @@
+org.omegat.App.flatpak filter=lfs diff=lfs merge=lfs -text
