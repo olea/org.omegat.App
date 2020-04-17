@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Exec=OmegaT
+Icon=org.omegat.App
+Name=OmegaT
+Name[es]=OmegaT
+GenericName=Computer Aid Translation (CAT) tool
+GenericName[es]=Herramienta de asistencia a la traducción
+Comment=OmegaT is a free software complete tool for professional translation projects
+Comment[es]=OmegaT es una herramienta software libre completa para proyectos profesionales de traducción
+Terminal=false
+Categories=Translation;Java;Office;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.24
+X-Flatpak=org.omegat.App
+
+# This thing is to tell GnomeShell the name of the X window of the
+# application for being able to set the correct icon, etc.
+StartupWMClass="sun-awt-X11-XFramePeer", "OmegaT"

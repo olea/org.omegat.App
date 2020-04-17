@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2020 Ismael Olea <ismael@olea.org> --> 
+<component type="desktop">
+    <id>org.omegat.App</id>
+    <name>OmegaT aided translation tool</name>
+    <name xml:lang="es">OmegaT, herramienta de asistencia a la traducción</name>>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0+</project_license>
+    <developer_name>The OmegaT developing team</developer_name>   
+    <developer_name xml:lang="es">equipo de desarrollo de OmegaT</developer_name>   
+    <summary>An advanced professional Computer Aid Translation tool for document translation projects</summary>
+    <summary xml:lang="es">Una herramienta de asistencia a la traducción profesional para projectos de traducción de documentos</summary>
+    <content_rating type="oars-1.1" />
+
+    <url type="homepage">https://omegat.org/</url>
+    <url type="bugtracker">https://sourceforge.net/p/omegat/_list/tickets?source=navbar</url>
+    <url type="translate">https://omegat.org/howtos/localizing_omegat</url>
+    <url type="help">https://omegat.org/documentation</url>
+    <url type="contact">https://omegat.org/support</url>
+    <url type="donation">https://sourceforge.net/p/omegat/donate/?source=website</url>
+  
+    <update_contact>ismael@olea.org</update_contact>
+    <launchable type="desktop-id">org.omegat.App.desktop</launchable>
+
+    <screenshots>
+        <screenshot xml:lang="en" type="default">
+            <image>https://screenshots.debian.net/screenshots/000/008/319/large.png</image>
+        </screenshot>
+    </screenshots>
+
+    <categories>
+    	<category>Translation</category>
+    	<category>Office</category>
+    	<category>Java</category>
+    </categories>
+    <description>
+        <p>
+            OmegaT is an opensource translation memory application intended for professional translators. It does not
+            translate for you!
+        </p>
+        <p>
+            OmegaT has the following features:
+        </p>
+        <ul>
+            <li>Fuzzy matching</li>
+            <li>Match propagation</li>
+            <li>Simultaneous processing of multiple-file projects</li>
+            <li>Simultaneous use of multiple translation memories</li>
+            <li>External glossaries</li>
+            <li>Unicode (UTF-8) support: can be used with non-Latin alphabets</li>
+            <li>Support for right-to-left languages</li>
+            <li>Compatible with other translation memory applications (TMX)</li>
+        </ul>
+            <p>Document file formats: </p>
+            	<ul>
+            	    <li>XHTML and HTML</li>
+                    <li> Microsoft Office 2007 XML</li>
+                    <li>OpenOffice.org/StarOffice</li>
+                    <li>XLIFF (Okapi)</li>
+                    <li>MediaWiki (Wikipedia)</li>
+                    <li>Plain text/</li>
+                </ul>
+    </description>   
+      <releases>
+          <release urgency="low" version="5.2.0_Beta" date="2020-01-26">
+                <description>  
+                <p>New features, bugfixes and updated translations.</p>
+                
+                </description>
+           </release>
+       </releases>
+</component>
