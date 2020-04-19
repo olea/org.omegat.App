@@ -66,3 +66,26 @@ modules:
 
     post-install:
       - update-mime-database /app/share/mime
+  
+  - name: plugins
+    no-autogen: true
+    sources:
+
+      - type: archive
+        url: https://bintray.com/okapi/Distribution/download_file?file_path=okapiFiltersForOmegaT-1.7-1.39-dist.zip
+        sha256: ca2be8a8aba2e99dc417262c208eae2159e58b32ddb701f4ae8db19954284245
+        dest-filename: okapiFiltersForOmegaT-1.7-1.39-dist.zip
+      
+      # - type: file
+      #   url: https://github.com/apertium/apertium-omegat/releases/download/v1.0/apertium-omegat.jar
+      #   sha256: 72e00f7903a8cd7a81f7b741407cffd9f49b55c2a03bfb185107f68f4c1065b9
+      
+      # - type: file
+      #   url: https://github.com/yoursdearboy/omegat-browser/releases/download/v1.3/omegat-browser-1.3.jar
+      #   sha256: 84802ae70c6a186833e957d34a2c2fd2d3a3a25a89e70f22a6a4d04fca8f9814
+
+    buildsystem: simple
+    build-commands: 
+      - install -Dm644 okapiFiltersForOmegaT-1.7-1.39.jar /app/OmegaT/plugins
+      # - install -Dm644 apertium-omegat.jar /app/OmegaT/plugins
+      # - install -Dm644 omegat-browser-1.3.jar /app/OmegaT/plugins
