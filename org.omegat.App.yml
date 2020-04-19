@@ -50,6 +50,10 @@ modules:
       - type: file
         path: org.omegat.App.metainfo.xml
 
+      # mime data.
+      - type: file
+        path: org.omegat.App.mime.xml
+
     buildsystem: simple
     build-commands: 
       - mkdir -p /app/OmegaT /app/bin
@@ -58,12 +62,7 @@ modules:
       - install -Dm644 org.omegat.App.desktop /app/share/applications/org.omegat.App.desktop
       - install -Dm644 images/OmegaT.svg /app/share/icons/hicolor/scalable/apps/org.omegat.App.svg
       - install -Dm644 org.omegat.App.metainfo.xml /app/share/metainfo/org.omegat.App.metainfo.xml
-      # install mime metadata
+      - install -Dm644 org.omegat.App.mime.xml /app/share/mime/packages/org.omegat.App.xml
 
     post-install:
-      # - update-mime-database /app/share/mime
-      - echo
-
-    cleanup:
-      # 
-      - echo 
+      - update-mime-database /app/share/mime

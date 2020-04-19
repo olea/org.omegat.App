@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="application/omegat">
+        <comment>OmegaT translation project</comment>
+        <comment xml:lang="es">proyecto de traducción OmegaT</comment>
+        <sub-class-of type="application/xml"/>
+        <glob pattern="omegat.project"/>
+    </mime-type>
+</mime-info>

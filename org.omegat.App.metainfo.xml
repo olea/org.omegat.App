@@ -21,6 +21,9 @@
   
     <update_contact>ismael@olea.org</update_contact>
     <launchable type="desktop-id">org.omegat.App.desktop</launchable>
+    <mimetypes>
+        <mimetype>application/omegat</mimetype>
+    </mimetypes>
 
     <screenshots>
         <screenshot xml:lang="en" type="default">
@@ -31,6 +34,7 @@
     <categories>
     	<category>Translation</category>
     	<category>Office</category>
+        <category>Development</category>
     	<category>Java</category>
     </categories>
     <description>
